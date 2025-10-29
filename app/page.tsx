@@ -1,5 +1,5 @@
 import stepsData from '@/app/data.json'
-import LongDivisionBoard from '@/components/LongDivisionBoard'
+import LongDivisionBoard from '@/components/long-division/LongDivisionBoard'
 
 export default function Page() {
 	return (
