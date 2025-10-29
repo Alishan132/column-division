@@ -1,0 +1,101 @@
+{
+	"questionId": 617,
+	"studentQuestionId": 88136,
+	"questionText": "Деление в столбик",
+	"motivationMessage": null,
+	"question": {
+		"Steps": [
+			{
+				"Id": 0,
+				"D1": 63,
+				"D2": 35,
+				"CarryIn": 0,
+				"Sum": 1,
+				"CarryOut": 28,
+				"ParentHint": "",
+				"Hint": "Раздели 63 на 35",
+				"Side": "right"
+			},
+			{
+				"Id": 1,
+				"D1": 1,
+				"D2": 35,
+				"CarryIn": 0,
+				"Sum": 35,
+				"CarryOut": 28,
+				"ParentHint": "",
+				"Hint": "Умножь 1 на 35",
+				"Side": "left"
+			},
+			{
+				"Id": 2,
+				"D1": 63,
+				"D2": 35,
+				"CarryIn": 0,
+				"Sum": 28,
+				"CarryOut": 28,
+				"ParentHint": "",
+				"Hint": "Вычти из 63 число 35",
+				"Side": "left"
+			},
+			{
+				"Id": 3,
+				"D1": 28,
+				"D2": 0,
+				"CarryIn": 0,
+				"Sum": 280,
+				"CarryOut": 280,
+				"ParentHint": "",
+				"Hint": "Спусти цифру 0 вниз",
+				"Side": "left"
+			},
+			{
+				"Id": 4,
+				"D1": 280,
+				"D2": 35,
+				"CarryIn": 0,
+				"Sum": 8,
+				"CarryOut": 0,
+				"ParentHint": "",
+				"Hint": "Раздели 280 на 35",
+				"Side": "right"
+			},
+			{
+				"Id": 5,
+				"D1": 8,
+				"D2": 35,
+				"CarryIn": 0,
+				"Sum": 280,
+				"CarryOut": 0,
+				"ParentHint": "",
+				"Hint": "Умножь 8 на 35",
+				"Side": "left"
+			},
+			{
+				"Id": 6,
+				"D1": 280,
+				"D2": 280,
+				"CarryIn": 0,
+				"Sum": 0,
+				"CarryOut": 0,
+				"ParentHint": "",
+				"Hint": "Вычти из 280 число 280",
+				"Side": "left"
+			}
+		],
+		"ResultDigitCount": 2,
+		"MathOperation": 3,
+		"Numbers": [630, 35]
+	},
+	"steps": null,
+	"options": null,
+	"answerType": 0,
+	"correctAnswer": null,
+	"backgroundImg": "",
+	"questionImgs": null,
+	"level": 3,
+	"readable": true,
+	"questionReadText": "Деление в столбик",
+	"hints": [],
+	"backgroundImg2": ""
+}
