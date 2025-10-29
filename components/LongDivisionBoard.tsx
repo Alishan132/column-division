@@ -212,7 +212,7 @@ export default function LongDivisionBoard({ question }: Props) {
 				</div>
 			</div>
 
-			<div className='flex gap-2'>
+			<div className='flex gap-2 mt-10'>
 				<Button
 					onClick={prevStep}
 					disabled={stepIndex === 0}
